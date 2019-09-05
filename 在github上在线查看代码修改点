@@ -1,0 +1,6 @@
+以fastjson为例：
+url输入https://github.com/alibaba/fastjson/compare，然后在base和compare中分别输入分支tag，tag从主页里看。
+注意：
+a. 大小写敏感
+b. base的版本要比compare的小,否则没有结果
+也可以直接在url中输入https://github.com/alibaba/fastjson/compare/1.2.59...1.2.60 ,1.2.59是base,1.2.60是compare
