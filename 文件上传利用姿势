@@ -1,0 +1,3 @@
+fastjson在反序列化的时候支持通过java的SPI机制扩展新的反序列化实现类。接口类为：com.alibaba.fastjson.parser.deserializer.AutowiredObjectDeserializer
+
+只要在java的claspath下的/META-INF/services/com.alibaba.fastjson.parser.deserializer.AutowiredObjectDeserializer文件上写上一个类名,，fastjson反序列化时会触发SPI，java会自动去加载ForTest类
