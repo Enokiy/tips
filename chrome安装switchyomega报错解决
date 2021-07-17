@@ -1,0 +1,3 @@
+直接从github下载的SwitchyOmega.crx文件直接拖到扩展程序安装报错说CRX_HEADER_INVALID,搜了一圈解决方法如下:
+
+将.crx改成.zip,放到chrom安装目录的Extensions下,然后再拖到扩展程序安装就没有问题了.
