@@ -1,0 +1,7 @@
+ 1. curl：
+ Telling curl not to normalize a url:使用curl时正常情况下会对url进行normalize处理，使用--path-as-is 可以忽略处理；
+ 2. wget:
+    --post-file 可以用来从服务器上下载文件,--output-document 可以上传文件到服务器;  使用场景:wget命令注入只能控制参数时;
+ 3. tar: 
+    上传一个1.tar.gz文件,里面包含一个1.sh,1.sh中是要执行shell脚本，然后将文件名改为1.tar.gz --to-command=bash即可成功执行1.sh中的内容
+    --checkpoint=1、--checkpoint-action=exec=sh
